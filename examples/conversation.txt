@@ -1,0 +1,28 @@
+DEMONSTRAÇÃO LOCAL — DADOS FICTÍCIOS
+
+Você: /start
+Ritmo: Ritmo: consulte o relatório de vendas.
+/vendas - indicadores
+/categorias - receita por categoria
+/resumo - leitura dos resultados
+/qualidade - conferência dos dados
+
+Você: /vendas
+Ritmo: Receita concluída: R$ 2426,10
+Pedidos concluídos: 52
+Ticket médio: R$ 46,66
+Pedidos cancelados: 8
+
+Você: /categorias
+Ritmo: Receita por categoria:
+Livros: R$ 1356,60
+Papelaria: R$ 637,50
+Acessórios: R$ 432,00
+
+Você: /qualidade
+Ritmo: Linhas recebidas: 63
+Linhas válidas: 60
+Linhas para revisão: 3
+
+Você: /resumo
+Ritmo: Livros teve a maior receita no conjunto. 8 pedidos cancelados ficaram fora da receita. Resumo calculado por regras. Esta demonstração usa dados fictícios.
