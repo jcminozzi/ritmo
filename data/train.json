@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Qual é o total gasto",
+    "intent": "total"
+  },
+  {
+    "question": "Quanto gastamos no período",
+    "intent": "total"
+  },
+  {
+    "question": "Some as despesas pagas",
+    "intent": "total"
+  },
+  {
+    "question": "Qual o valor total das despesas",
+    "intent": "total"
+  },
+  {
+    "question": "Quanto a empresa gastou",
+    "intent": "total"
+  },
+  {
+    "question": "Informe a soma dos gastos",
+    "intent": "total"
+  },
+  {
+    "question": "Qual é a despesa total",
+    "intent": "total"
+  },
+  {
+    "question": "Quanto já foi pago",
+    "intent": "total"
+  },
+  {
+    "question": "Total de pagamentos realizados",
+    "intent": "total"
+  },
+  {
+    "question": "Qual o montante gasto",
+    "intent": "total"
+  },
+  {
+    "question": "Quero ver todos os gastos somados",
+    "intent": "total"
+  },
+  {
+    "question": "Qual foi o desembolso total",
+    "intent": "total"
+  },
+  {
+    "question": "Quanto foi gasto em fevereiro",
+    "intent": "total"
+  },
+  {
+    "question": "Mostre o total pago em janeiro",
+    "intent": "total"
+  },
+  {
+    "question": "Qual a soma das despesas de março",
+    "intent": "total"
+  },
+  {
+    "question": "Mostre os gastos por categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Qual categoria tem mais despesas",
+    "intent": "categories"
+  },
+  {
+    "question": "Separe as despesas por área",
+    "intent": "categories"
+  },
+  {
+    "question": "Como os gastos se dividem por categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Agrupe os pagamentos por categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Distribuição de despesas por categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Quero um gráfico das categorias",
+    "intent": "categories"
+  },
+  {
+    "question": "Compare os gastos de cada categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Quais áreas concentram os gastos",
+    "intent": "categories"
+  },
+  {
+    "question": "Onde gastamos por categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Mostre a divisão por área",
+    "intent": "categories"
+  },
+  {
+    "question": "Qual o custo de cada categoria",
+    "intent": "categories"
+  },
+  {
+    "question": "Liste os totais das categorias",
+    "intent": "categories"
+  },
+  {
+    "question": "Como estão os gastos em cada área",
+    "intent": "categories"
+  },
+  {
+    "question": "Exiba a participação das categorias",
+    "intent": "categories"
+  },
+  {
+    "question": "Compare os gastos por mês",
+    "intent": "months"
+  },
+  {
+    "question": "Como os gastos mudaram entre meses",
+    "intent": "months"
+  },
+  {
+    "question": "Mostre a evolução mensal das despesas",
+    "intent": "months"
+  },
+  {
+    "question": "Qual mês teve mais gastos",
+    "intent": "months"
+  },
+  {
+    "question": "Compare janeiro e fevereiro",
+    "intent": "months"
+  },
+  {
+    "question": "Os gastos aumentaram de um mês para outro",
+    "intent": "months"
+  },
+  {
+    "question": "Qual foi a variação mensal",
+    "intent": "months"
+  },
+  {
+    "question": "Veja os gastos mês a mês",
+    "intent": "months"
+  },
+  {
+    "question": "Quero um gráfico mensal",
+    "intent": "months"
+  },
+  {
+    "question": "Compare os totais mensais",
+    "intent": "months"
+  },
+  {
+    "question": "Como evoluíram as despesas no tempo",
+    "intent": "months"
+  },
+  {
+    "question": "Os gastos caíram entre os meses",
+    "intent": "months"
+  },
+  {
+    "question": "Mostre a tendência mensal dos gastos",
+    "intent": "months"
+  },
+  {
+    "question": "Qual é a diferença entre meses",
+    "intent": "months"
+  },
+  {
+    "question": "Compare fevereiro e março de 2026",
+    "intent": "months"
+  },
+  {
+    "question": "Quais foram as maiores despesas",
+    "intent": "largest"
+  },
+  {
+    "question": "Liste os maiores pagamentos",
+    "intent": "largest"
+  },
+  {
+    "question": "Quais são os cinco maiores gastos",
+    "intent": "largest"
+  },
+  {
+    "question": "Mostre os lançamentos mais caros",
+    "intent": "largest"
+  },
+  {
+    "question": "Quem recebeu os maiores valores",
+    "intent": "largest"
+  },
+  {
+    "question": "Quais fornecedores receberam mais em um lançamento",
+    "intent": "largest"
+  },
+  {
+    "question": "Quero ver as despesas mais altas",
+    "intent": "largest"
+  },
+  {
+    "question": "Liste os pagamentos de maior valor",
+    "intent": "largest"
+  },
+  {
+    "question": "Qual foi o maior gasto individual",
+    "intent": "largest"
+  },
+  {
+    "question": "Mostre as cinco contas mais caras",
+    "intent": "largest"
+  },
+  {
+    "question": "Qual lançamento teve o maior valor",
+    "intent": "largest"
+  },
+  {
+    "question": "Ranking das maiores despesas pagas",
+    "intent": "largest"
+  },
+  {
+    "question": "Quais pagamentos pesaram mais",
+    "intent": "largest"
+  },
+  {
+    "question": "Exiba as maiores contas individuais",
+    "intent": "largest"
+  },
+  {
+    "question": "Quais são os maiores lançamentos pagos",
+    "intent": "largest"
+  },
+  {
+    "question": "Há erros na planilha",
+    "intent": "quality"
+  },
+  {
+    "question": "Verifique a qualidade dos dados",
+    "intent": "quality"
+  },
+  {
+    "question": "Existem linhas inválidas no arquivo",
+    "intent": "quality"
+  },
+  {
+    "question": "Quantas linhas foram rejeitadas",
+    "intent": "quality"
+  },
+  {
+    "question": "A planilha tem dados duplicados",
+    "intent": "quality"
+  },
+  {
+    "question": "Quais problemas apareceram na importação",
+    "intent": "quality"
+  },
+  {
+    "question": "Existem valores ausentes",
+    "intent": "quality"
+  },
+  {
+    "question": "Mostre os erros do CSV",
+    "intent": "quality"
+  },
+  {
+    "question": "A base contém datas inválidas",
+    "intent": "quality"
+  },
+  {
+    "question": "Quais linhas precisam de revisão",
+    "intent": "quality"
+  },
+  {
+    "question": "Confira os dados importados",
+    "intent": "quality"
+  },
+  {
+    "question": "Como está a qualidade da planilha",
+    "intent": "quality"
+  },
+  {
+    "question": "Há lançamentos duplicados",
+    "intent": "quality"
+  },
+  {
+    "question": "Quantos registros foram separados para revisão",
+    "intent": "quality"
+  },
+  {
+    "question": "Encontrei problemas nos dados da planilha",
+    "intent": "quality"
+  },
+  {
+    "question": "Qual ação devo comprar",
+    "intent": "other"
+  },
+  {
+    "question": "Quero uma recomendação de investimento",
+    "intent": "other"
+  },
+  {
+    "question": "Como investir meu dinheiro",
+    "intent": "other"
+  },
+  {
+    "question": "Qual é a previsão do tempo",
+    "intent": "other"
+  },
+  {
+    "question": "Escreva um contrato jurídico",
+    "intent": "other"
+  },
+  {
+    "question": "Me explique uma lei",
+    "intent": "other"
+  },
+  {
+    "question": "Qual time venceu o jogo",
+    "intent": "other"
+  },
+  {
+    "question": "Conte uma piada",
+    "intent": "other"
+  },
+  {
+    "question": "Faça uma previsão de lucro futuro",
+    "intent": "other"
+  },
+  {
+    "question": "Me diga o preço do bitcoin",
+    "intent": "other"
+  },
+  {
+    "question": "Qual banco devo escolher para investir",
+    "intent": "other"
+  },
+  {
+    "question": "Traduza este texto para inglês",
+    "intent": "other"
+  },
+  {
+    "question": "Quem é o presidente",
+    "intent": "other"
+  },
+  {
+    "question": "Resolva minha tarefa de matemática",
+    "intent": "other"
+  },
+  {
+    "question": "Dê uma receita de bolo",
+    "intent": "other"
+  }
+]

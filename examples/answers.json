@@ -1,0 +1,221 @@
+[
+  {
+    "question": "Quanto gastamos em fevereiro de 2026?",
+    "kind": "answer",
+    "intent": "total",
+    "scope": "2026-02",
+    "chart": [
+      {
+        "label": "Pago",
+        "cents": 462570
+      },
+      {
+        "label": "Pendente",
+        "cents": 79650
+      }
+    ],
+    "evidence": {
+      "source": "expenses.csv",
+      "sample_ids": [
+        "D014",
+        "D015",
+        "D016",
+        "D017",
+        "D019",
+        "D020",
+        "D021",
+        "D022",
+        "D024"
+      ],
+      "queried_at": "2026-10-16T12:51:35+00:00",
+      "scope": "2026-02",
+      "rule": "Somente status pago entra nos gastos; pendências ficam separadas."
+    },
+    "text": "As despesas pagas somam R$ 4.625,70, em 9 lançamentos, considerando 2026-02. Há também R$ 796,50 pendentes, fora desse total."
+  },
+  {
+    "question": "Mostre os gastos por categoria",
+    "kind": "answer",
+    "intent": "categories",
+    "scope": "todos os períodos da fonte",
+    "chart": [
+      {
+        "label": "Pessoal",
+        "cents": 736920
+      },
+      {
+        "label": "Marketing",
+        "cents": 284880
+      },
+      {
+        "label": "Operações",
+        "cents": 123900
+      },
+      {
+        "label": "Serviços",
+        "cents": 106440
+      },
+      {
+        "label": "Tecnologia",
+        "cents": 95160
+      },
+      {
+        "label": "Transporte",
+        "cents": 40410
+      }
+    ],
+    "evidence": {
+      "source": "expenses.csv",
+      "sample_ids": [
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D007",
+        "D008",
+        "D009",
+        "D010",
+        "D012",
+        "D014",
+        "D015",
+        "D016"
+      ],
+      "queried_at": "2026-10-16T12:51:35+00:00",
+      "scope": "todos os períodos da fonte",
+      "rule": "Somente status pago entra nos gastos; pendências ficam separadas."
+    },
+    "text": "Despesas pagas por categoria (até oito), considerando todos os períodos da fonte:\nPessoal: R$ 7.369,20\nMarketing: R$ 2.848,80\nOperações: R$ 1.239,00\nServiços: R$ 1.064,40\nTecnologia: R$ 951,60\nTransporte: R$ 404,10"
+  },
+  {
+    "question": "Compare os gastos por mês",
+    "kind": "answer",
+    "intent": "months",
+    "scope": "todos os períodos da fonte",
+    "chart": [
+      {
+        "label": "2026-01",
+        "cents": 454470
+      },
+      {
+        "label": "2026-02",
+        "cents": 462570
+      },
+      {
+        "label": "2026-03",
+        "cents": 470670
+      }
+    ],
+    "evidence": {
+      "source": "expenses.csv",
+      "sample_ids": [
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D007",
+        "D008",
+        "D009",
+        "D010",
+        "D012",
+        "D014",
+        "D015",
+        "D016"
+      ],
+      "queried_at": "2026-10-16T12:51:35+00:00",
+      "scope": "todos os períodos da fonte",
+      "rule": "Somente status pago entra nos gastos; pendências ficam separadas."
+    },
+    "text": "Despesas pagas por mês (até 12 meses disponíveis):\n2026-01: R$ 4.544,70\n2026-02: R$ 4.625,70\n2026-03: R$ 4.706,70\nEntre 2026-02 e 2026-03, houve aumento de R$ 81,00. Os períodos podem estar incompletos; o bot não atribui uma causa."
+  },
+  {
+    "question": "Quais foram as maiores despesas?",
+    "kind": "answer",
+    "intent": "largest",
+    "scope": "todos os períodos da fonte",
+    "chart": [
+      {
+        "label": "Fornecedor Demo D",
+        "cents": 124230
+      },
+      {
+        "label": "Fornecedor Demo D",
+        "cents": 123330
+      },
+      {
+        "label": "Fornecedor Demo D",
+        "cents": 123210
+      },
+      {
+        "label": "Fornecedor Demo D",
+        "cents": 122430
+      },
+      {
+        "label": "Fornecedor Demo D",
+        "cents": 122310
+      }
+    ],
+    "evidence": {
+      "source": "expenses.csv",
+      "sample_ids": [
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D007",
+        "D008",
+        "D009",
+        "D010",
+        "D012",
+        "D014",
+        "D015",
+        "D016"
+      ],
+      "queried_at": "2026-10-16T12:51:35+00:00",
+      "scope": "todos os períodos da fonte",
+      "rule": "Somente status pago entra nos gastos; pendências ficam separadas."
+    },
+    "text": "Maiores despesas pagas (até cinco), considerando todos os períodos da fonte:\nD034 · Fornecedor Demo D · R$ 1.242,30\nD022 · Fornecedor Demo D · R$ 1.233,30\nD028 · Fornecedor Demo D · R$ 1.232,10\nD010 · Fornecedor Demo D · R$ 1.224,30\nD016 · Fornecedor Demo D · R$ 1.223,10"
+  },
+  {
+    "question": "Há erros na planilha?",
+    "kind": "answer",
+    "intent": "quality",
+    "scope": "todos os períodos da fonte",
+    "chart": [],
+    "evidence": {
+      "source": "expenses.csv",
+      "sample_ids": [
+        "D002",
+        "D003",
+        "D004",
+        "D005",
+        "D007",
+        "D008",
+        "D009",
+        "D010",
+        "D012",
+        "D014",
+        "D015",
+        "D016"
+      ],
+      "queried_at": "2026-10-16T12:51:35+00:00",
+      "scope": "todos os períodos da fonte",
+      "rule": "Somente status pago entra nos gastos; pendências ficam separadas."
+    },
+    "text": "O CSV contém 3 linhas separadas para revisão. A base válida tem 36 lançamentos neste recorte.",
+    "issues": [
+      {
+        "line": 38,
+        "reason": "identificador vazio ou duplicado"
+      },
+      {
+        "line": 39,
+        "reason": "day is out of range for month"
+      },
+      {
+        "line": 40,
+        "reason": "valor precisa de ponto e duas casas decimais"
+      }
+    ]
+  }
+]

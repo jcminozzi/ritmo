@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Pode somar o que já pagamos?",
+    "intent": "total"
+  },
+  {
+    "question": "Qual foi o total de despesas pagas em 2026-02?",
+    "intent": "total"
+  },
+  {
+    "question": "Me passa a soma dos pagamentos.",
+    "intent": "total"
+  },
+  {
+    "question": "Quanto saiu do caixa em janeiro de 2026?",
+    "intent": "total"
+  },
+  {
+    "question": "Qual o valor acumulado das despesas pagas?",
+    "intent": "total"
+  },
+  {
+    "question": "Preciso do gasto separado por categoria.",
+    "intent": "categories"
+  },
+  {
+    "question": "Em quais áreas as despesas se concentram?",
+    "intent": "categories"
+  },
+  {
+    "question": "Pode abrir os pagamentos em categorias?",
+    "intent": "categories"
+  },
+  {
+    "question": "Como ficou a distribuição por área?",
+    "intent": "categories"
+  },
+  {
+    "question": "Compare as despesas de cada categoria em 2026-03.",
+    "intent": "categories"
+  },
+  {
+    "question": "Quero comparar a despesa entre janeiro e março de 2026.",
+    "intent": "months"
+  },
+  {
+    "question": "Exiba os gastos mês a mês num gráfico.",
+    "intent": "months"
+  },
+  {
+    "question": "Como variou o total mensal?",
+    "intent": "months"
+  },
+  {
+    "question": "As despesas aumentaram entre fevereiro e março?",
+    "intent": "months"
+  },
+  {
+    "question": "Qual foi a evolução dos pagamentos nos meses?",
+    "intent": "months"
+  },
+  {
+    "question": "Mostre os lançamentos de maior valor.",
+    "intent": "largest"
+  },
+  {
+    "question": "Quais pagamentos individuais foram mais caros?",
+    "intent": "largest"
+  },
+  {
+    "question": "Liste as cinco despesas mais altas.",
+    "intent": "largest"
+  },
+  {
+    "question": "Preciso das maiores contas pagas em 2026-01.",
+    "intent": "largest"
+  },
+  {
+    "question": "Que fornecedor teve o maior lançamento?",
+    "intent": "largest"
+  },
+  {
+    "question": "Tem alguma linha duplicada no CSV?",
+    "intent": "quality"
+  },
+  {
+    "question": "Quantos dados ficaram para revisão?",
+    "intent": "quality"
+  },
+  {
+    "question": "Quais erros foram encontrados na importação?",
+    "intent": "quality"
+  },
+  {
+    "question": "A base está com valores em branco?",
+    "intent": "quality"
+  },
+  {
+    "question": "Preciso conferir a qualidade do arquivo.",
+    "intent": "quality"
+  },
+  {
+    "question": "Me ajude a escolher uma ação para investir.",
+    "intent": "other"
+  },
+  {
+    "question": "Vai chover no fim de semana?",
+    "intent": "other"
+  },
+  {
+    "question": "Pode redigir uma petição?",
+    "intent": "other"
+  },
+  {
+    "question": "Qual o resultado da partida de futebol?",
+    "intent": "other"
+  },
+  {
+    "question": "Quero uma previsão dos lucros do ano que vem.",
+    "intent": "other"
+  }
+]

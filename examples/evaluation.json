@@ -1,0 +1,196 @@
+{
+  "dataset": "sintético, pequeno, escrito para estudo; não mede desempenho em empresas",
+  "test_examples": 30,
+  "correct": 25,
+  "accuracy": 0.8333333333333334,
+  "macro_f1": 0.8869047619047619,
+  "coverage": 0.8333333333333334,
+  "majority_baseline": 0.16666666666666666,
+  "predictions": [
+    {
+      "question": "Pode somar o que já pagamos?",
+      "intent": "total",
+      "predicted": "total",
+      "raw_predicted": "total"
+    },
+    {
+      "question": "Qual foi o total de despesas pagas em 2026-02?",
+      "intent": "total",
+      "predicted": "total",
+      "raw_predicted": "total"
+    },
+    {
+      "question": "Me passa a soma dos pagamentos.",
+      "intent": "total",
+      "predicted": "unclear",
+      "raw_predicted": "total"
+    },
+    {
+      "question": "Quanto saiu do caixa em janeiro de 2026?",
+      "intent": "total",
+      "predicted": "total",
+      "raw_predicted": "total"
+    },
+    {
+      "question": "Qual o valor acumulado das despesas pagas?",
+      "intent": "total",
+      "predicted": "unclear",
+      "raw_predicted": "largest"
+    },
+    {
+      "question": "Preciso do gasto separado por categoria.",
+      "intent": "categories",
+      "predicted": "categories",
+      "raw_predicted": "categories"
+    },
+    {
+      "question": "Em quais áreas as despesas se concentram?",
+      "intent": "categories",
+      "predicted": "categories",
+      "raw_predicted": "categories"
+    },
+    {
+      "question": "Pode abrir os pagamentos em categorias?",
+      "intent": "categories",
+      "predicted": "categories",
+      "raw_predicted": "categories"
+    },
+    {
+      "question": "Como ficou a distribuição por área?",
+      "intent": "categories",
+      "predicted": "categories",
+      "raw_predicted": "categories"
+    },
+    {
+      "question": "Compare as despesas de cada categoria em 2026-03.",
+      "intent": "categories",
+      "predicted": "categories",
+      "raw_predicted": "categories"
+    },
+    {
+      "question": "Quero comparar a despesa entre janeiro e março de 2026.",
+      "intent": "months",
+      "predicted": "months",
+      "raw_predicted": "months"
+    },
+    {
+      "question": "Exiba os gastos mês a mês num gráfico.",
+      "intent": "months",
+      "predicted": "months",
+      "raw_predicted": "months"
+    },
+    {
+      "question": "Como variou o total mensal?",
+      "intent": "months",
+      "predicted": "months",
+      "raw_predicted": "months"
+    },
+    {
+      "question": "As despesas aumentaram entre fevereiro e março?",
+      "intent": "months",
+      "predicted": "months",
+      "raw_predicted": "months"
+    },
+    {
+      "question": "Qual foi a evolução dos pagamentos nos meses?",
+      "intent": "months",
+      "predicted": "months",
+      "raw_predicted": "months"
+    },
+    {
+      "question": "Mostre os lançamentos de maior valor.",
+      "intent": "largest",
+      "predicted": "largest",
+      "raw_predicted": "largest"
+    },
+    {
+      "question": "Quais pagamentos individuais foram mais caros?",
+      "intent": "largest",
+      "predicted": "largest",
+      "raw_predicted": "largest"
+    },
+    {
+      "question": "Liste as cinco despesas mais altas.",
+      "intent": "largest",
+      "predicted": "largest",
+      "raw_predicted": "largest"
+    },
+    {
+      "question": "Preciso das maiores contas pagas em 2026-01.",
+      "intent": "largest",
+      "predicted": "largest",
+      "raw_predicted": "largest"
+    },
+    {
+      "question": "Que fornecedor teve o maior lançamento?",
+      "intent": "largest",
+      "predicted": "largest",
+      "raw_predicted": "largest"
+    },
+    {
+      "question": "Tem alguma linha duplicada no CSV?",
+      "intent": "quality",
+      "predicted": "quality",
+      "raw_predicted": "quality"
+    },
+    {
+      "question": "Quantos dados ficaram para revisão?",
+      "intent": "quality",
+      "predicted": "quality",
+      "raw_predicted": "quality"
+    },
+    {
+      "question": "Quais erros foram encontrados na importação?",
+      "intent": "quality",
+      "predicted": "quality",
+      "raw_predicted": "quality"
+    },
+    {
+      "question": "A base está com valores em branco?",
+      "intent": "quality",
+      "predicted": "quality",
+      "raw_predicted": "quality"
+    },
+    {
+      "question": "Preciso conferir a qualidade do arquivo.",
+      "intent": "quality",
+      "predicted": "quality",
+      "raw_predicted": "quality"
+    },
+    {
+      "question": "Me ajude a escolher uma ação para investir.",
+      "intent": "other",
+      "predicted": "other",
+      "raw_predicted": "other"
+    },
+    {
+      "question": "Vai chover no fim de semana?",
+      "intent": "other",
+      "predicted": "unclear",
+      "raw_predicted": "total"
+    },
+    {
+      "question": "Pode redigir uma petição?",
+      "intent": "other",
+      "predicted": "unclear",
+      "raw_predicted": null
+    },
+    {
+      "question": "Qual o resultado da partida de futebol?",
+      "intent": "other",
+      "predicted": "unclear",
+      "raw_predicted": null
+    },
+    {
+      "question": "Quero uma previsão dos lucros do ano que vem.",
+      "intent": "other",
+      "predicted": "other",
+      "raw_predicted": "other"
+    }
+  ],
+  "training_examples": 90,
+  "dataset_sha256": {
+    "train": "4e5958b8677b73febf3ca7aeaee1f5334f0e69805c9960f74750ceec3fcb5d10",
+    "test": "6ab46b3a1d89f7b7a801e711280acd3a7be94d9eb637e2aa45d337a349f52bcd"
+  }
+}

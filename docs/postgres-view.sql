@@ -1,0 +1,14 @@
+-- Exemplo de mapeamento para adaptar com quem administra o banco.
+-- Não é executado pelo chatbot. Nomes e tipos abaixo são ilustrativos.
+-- A conta do chatbot precisa de SELECT nessa view, sem acesso de escrita.
+
+-- CREATE VIEW finance_expenses AS
+-- SELECT
+--     id::text AS expense_id,
+--     to_char(payment_date, 'YYYY-MM-DD') AS expense_date,
+--     cost_category::text AS category,
+--     vendor_name::text AS supplier,
+--     round(amount_brl * 100)::bigint AS amount_cents,
+--     CASE WHEN payment_status = 'paid' THEN 'pago' ELSE 'pendente' END AS status
+-- FROM company_expenses
+-- WHERE payment_status IN ('paid', 'pending') AND amount_brl > 0;

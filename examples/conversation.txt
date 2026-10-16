@@ -1,28 +1,31 @@
-DEMONSTRAÇÃO LOCAL — DADOS FICTÍCIOS
+RITMO · DEMONSTRAÇÃO LOCAL · DADOS FICTÍCIOS
 
-Você: /start
-Ritmo: Ritmo: consulte o relatório de vendas.
-/vendas - indicadores
-/categorias - receita por categoria
-/resumo - leitura dos resultados
-/qualidade - conferência dos dados
+Você: Quanto gastamos em fevereiro de 2026?
+Ritmo: As despesas pagas somam R$ 4.625,70, em 9 lançamentos, considerando 2026-02. Há também R$ 796,50 pendentes, fora desse total.
 
-Você: /vendas
-Ritmo: Receita concluída: R$ 2426,10
-Pedidos concluídos: 52
-Ticket médio: R$ 46,66
-Pedidos cancelados: 8
+Você: Mostre os gastos por categoria
+Ritmo: Despesas pagas por categoria (até oito), considerando todos os períodos da fonte:
+Pessoal: R$ 7.369,20
+Marketing: R$ 2.848,80
+Operações: R$ 1.239,00
+Serviços: R$ 1.064,40
+Tecnologia: R$ 951,60
+Transporte: R$ 404,10
 
-Você: /categorias
-Ritmo: Receita por categoria:
-Livros: R$ 1356,60
-Papelaria: R$ 637,50
-Acessórios: R$ 432,00
+Você: Compare os gastos por mês
+Ritmo: Despesas pagas por mês (até 12 meses disponíveis):
+2026-01: R$ 4.544,70
+2026-02: R$ 4.625,70
+2026-03: R$ 4.706,70
+Entre 2026-02 e 2026-03, houve aumento de R$ 81,00. Os períodos podem estar incompletos; o bot não atribui uma causa.
 
-Você: /qualidade
-Ritmo: Linhas recebidas: 63
-Linhas válidas: 60
-Linhas para revisão: 3
+Você: Quais foram as maiores despesas?
+Ritmo: Maiores despesas pagas (até cinco), considerando todos os períodos da fonte:
+D034 · Fornecedor Demo D · R$ 1.242,30
+D022 · Fornecedor Demo D · R$ 1.233,30
+D028 · Fornecedor Demo D · R$ 1.232,10
+D010 · Fornecedor Demo D · R$ 1.224,30
+D016 · Fornecedor Demo D · R$ 1.223,10
 
-Você: /resumo
-Ritmo: Livros teve a maior receita no conjunto. 8 pedidos cancelados ficaram fora da receita. Resumo calculado por regras. Esta demonstração usa dados fictícios.
+Você: Há erros na planilha?
+Ritmo: O CSV contém 3 linhas separadas para revisão. A base válida tem 36 lançamentos neste recorte.
